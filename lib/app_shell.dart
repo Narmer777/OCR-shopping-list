@@ -23,7 +23,7 @@ class _AppShellState extends State<AppShell> {
           children: const [
             ShoppingListsPage(
               key: ValueKey('lists-page'),
-              listTitles: demoShoppingListTitles,
+              initialListTitles: demoShoppingListTitles,
             ),
             SizedBox.expand(key: ValueKey('scan-page')),
             SizedBox.expand(key: ValueKey('statistics-page')),
