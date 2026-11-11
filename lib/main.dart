@@ -19,6 +19,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: const Color(0xFFF5F0E8),
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFFE85D3A),
+          primary: const Color(0xFFE85D3A),
+          onPrimary: Colors.white,
           surface: Colors.white,
           onSurface: const Color(0xFF1A1A1A),
           onSurfaceVariant: const Color(0xFF6B7280),

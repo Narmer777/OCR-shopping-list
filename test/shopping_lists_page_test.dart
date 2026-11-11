@@ -8,7 +8,7 @@ import 'package:ocr_shopping_list/widgets/app_bottom_navigation_bar.dart';
 Widget buildPage(List<String> titles) {
   return MaterialApp(
     home: Scaffold(
-      body: ShoppingListsPage(listTitles: titles),
+      body: ShoppingListsPage(initialListTitles: titles),
       bottomNavigationBar: AppBottomNavigationBar(
         selectedIndex: 0,
         onDestinationSelected: (_) {},
