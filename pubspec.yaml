@@ -60,11 +60,17 @@ flutter:
 
   assets:
     - assets/fonts/OFL.txt
+    - assets/fonts/Lora-OFL.txt
 
   fonts:
     - family: Inter
       fonts:
         - asset: assets/fonts/Inter.ttf
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora.ttf
+        - asset: assets/fonts/Lora-Italic.ttf
+          style: italic
 
   # To add assets to your application, add an assets section, like this:
   # assets:

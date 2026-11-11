@@ -12,6 +12,14 @@ void main() {
 
     expect(find.byKey(const ValueKey('lists-page')), findsOneWidget);
     expect(find.byIcon(PhosphorIconsFill.listChecks), findsOneWidget);
+    expect(find.text('Мои списки', findRichText: true), findsOneWidget);
+    expect(find.text('Продукты на неделю'), findsOneWidget);
+
+    await tester.tap(find.text('Продукты на неделю'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Мои списки', findRichText: true), findsOneWidget);
+    expect(find.text('СПИСКИ'), findsOneWidget);
 
     for (final section in [
       (label: 'Сканировать', page: 'scan-page', icon: PhosphorIconsFill.camera),
