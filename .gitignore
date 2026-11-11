@@ -1,0 +1,15 @@
+# Flutter and Dart generated files
+/.dart_tool/
+/.flutter-plugins
+/.flutter-plugins-dependencies
+/.pub/
+/build/
+/coverage/
+
+# Local IDE files
+/.idea/
+*.iml
+
+# Local OS and editor files
+.DS_Store
+*.log
